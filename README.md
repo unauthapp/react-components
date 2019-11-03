@@ -21,3 +21,7 @@ React components used among all unauth apps
   ```
   yarn build-storybook
   ```
+- Build directory
+  ```
+  storybook-static
+  ```
