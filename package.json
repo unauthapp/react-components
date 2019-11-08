@@ -1,7 +1,6 @@
 {
-  "name": "unauth-landing-2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "unauth-landing",
+  "version": "1.0.0",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -21,18 +20,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "author": "Unauth App"
   "devDependencies": {
     "@storybook/addon-actions": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
