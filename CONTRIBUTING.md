@@ -25,3 +25,27 @@ The basic guidelines for contributing are as follows:
 - Add a suitable title and description to the pull request and tag the issue number in Pull Request description, if the pull request is related to some issue logged here: [Issues](https://github.com/unauthapp/react-components/issues)
 - You're done. Wait for your code to get reviewed and merged
 - Optional: Give us a :star: if you like our work :smile:
+
+## Run storybook locallly
+
+- Clone the repository
+- Install dependencies
+  ```
+  yarn
+  ```
+- Start storybook
+  ```
+  yarn storybook
+  ```
+
+## Storybook Deployment
+
+- This app is deployed on netlify.
+- To configure the app on netlify use below command as deploy command in netlify
+  ```
+  yarn build-storybook
+  ```
+- Build directory
+  ```
+  storybook-static
+  ```

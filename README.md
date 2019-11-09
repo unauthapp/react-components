@@ -1,8 +1,8 @@
-# unauth-react-components
+# UnauthApp - React Components
 
-React components used among all unauth apps
+React components used in all unauth apps
 
-# Components
+## Components
 
 ### Buttons
   - [Button with Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-icon) - Button component with right arrow icon on right side.  
@@ -49,47 +49,35 @@ React components used among all unauth apps
 - [Text Header](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-header) - Text component for heading
 - [Text Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-primary) - Primary text component 
 
-# Installation
+## Installation
 
 ```
 yarn add @unauthapp/react-components
 ```
 
-# Usage
+## Usage
 
-```
+```javascript
 const { Text, TextPrimary, ButtonIcon } from '@unauthapp/react-components';
 
-<Text>Sample</Text>
-<TextPrimary>Primary Text</TextPrimary>
-<ButtonIcon>Button Icon</ButtonIcon>
+export default Home extends React.Components {
+  render() {
+    <React.Fragment>
+      <Text>Sample</Text>
+      <TextPrimary>Primary Text</TextPrimary>
+      <ButtonIcon>Button Icon</ButtonIcon>
+    </React.Fragmment>
+  }
+}
 ```
 
-## Run storybook locallly
+## Contributing
 
-- Clone the repository
-- Install dependencies
-  ```
-  yarn
-  ```
-- Start storybook
-  ```
-  yarn storybook
-  ```
-
-## Storybook Deployment
-
-- This app is deployed on netlify.
-- To configure the app on netlify use below command as deploy command in netlify
-  ```
-  yarn build-storybook
-  ```
-- Build directory
-  ```
-  storybook-static
-  ```
+We are constantly working on improving squash and we need all the help we can get.
+You can contribute to this project by giving [suggestions](https://github.com/unauthapp/react-components/issues/new), fixing open [issues](https://github.com/unauthapp/react-components/issues) or by implementing a new feature.
+Read our contibution guide [here](CONTRIBUTING.md)
   
-# Contributors
+## Contributors
 
 Thank you to all the contributors who help in making this project better 🙌
 
