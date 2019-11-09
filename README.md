@@ -60,7 +60,7 @@ yarn add @unauthapp/react-components
 ```javascript
 const { Text, TextPrimary, ButtonIcon } from "@unauthapp/react-components";
 
-export default Home extends React.Components {
+export default class Home extends React.Components {
   render() {
     <React.Fragment>
       <Text>Sample</Text>
