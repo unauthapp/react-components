@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import ButtonIcon from '../core/ButtonIcon';
-import InputText from '../core/InputText';
+import { ButtonIcon, InputText } from '../core';
+
+import { CONSTANTS } from '../../constants';
 
 
 const Container = styled.div`
@@ -14,7 +15,7 @@ const Container = styled.div`
   width: 100%;
 `;
 
-export default class OneFieldForm extends React.Component {  
+export default class OneFieldForm extends React.Component {
 
   render() {
     return (
@@ -35,9 +36,9 @@ OneFieldForm.propTypes = {
 };
 
 OneFieldForm.defaultProps = {
-  fieldId: 'oneFieldFormId',
-  placeholder: 'Enter input',
-  buttonNext: 'Button',
+  fieldId: CONSTANTS.PLACEHOLDER.FIELD_ID,
+  placeholder: CONSTANTS.PLACEHOLDER.INPUT,
+  buttonNext: CONSTANTS.LABELS.BUTTON,
   onChange: () => console.log('No change handler specifcied'),
   onClick: () => console.log('No click handler specifcied')
 };

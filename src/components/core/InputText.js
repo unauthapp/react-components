@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import { COLORS } from '../../constants';
+import { COLORS, CONSTANTS } from '../../constants';
 
 
 const StyledInput = styled.input`
@@ -47,8 +47,8 @@ InputText.propTypes = {
 
 InputText.defaultProps = {
   disabled: false,
-  id: 'inputTextId',
-  placeholder: 'Enter text',
+  id: CONSTANTS.PLACEHOLDER.INPUT_ID,
+  placeholder: CONSTANTS.PLACEHOLDER.INPUT,
   value: '',
   onChange: () => console.log('No change handler specifcied')
 };

@@ -9,7 +9,6 @@ export { default as Image } from './Image';
 export { default as InputText } from './InputText';
 export { default as Logo } from './Logo';
 export { default as OneFieldForm } from './OneFieldForm';
-export { default as PromptConfirm } from './PromptConfirm';
 export { default as ReceiveLoader } from './ReceiveLoader';
 export { default as SendLoader } from './SendLoader';
 export { default as SuccessIcon } from './SuccessIcon';
