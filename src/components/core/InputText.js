@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 import { COLORS } from '../../constants';
+
 
 const StyledInput = styled.input`
   width: 800px;
@@ -32,5 +35,20 @@ export default class InputText extends React.Component {
       />
     );
   }
-}
+};
 
+InputText.propTypes = {
+  disabled: PropTypes.bool.isRequired,
+  id: PropTypes.string.isRequired,
+  placeholder: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired
+};
+
+InputText.defaultProps = {
+  disabled: false,
+  id: 'inputTextId',
+  placeholder: 'Enter text',
+  value: '',
+  onChange: () => console.log('No change handler specifcied')
+};

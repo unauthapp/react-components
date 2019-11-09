@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import { PromptManager } from '../../lib';
 
@@ -148,4 +149,20 @@ export default class PromptConfirm extends React.Component {
       </React.Fragment>
     )
   }
-}
+};
+
+PromptConfirm.propTypes = {
+  titleConfirm: PropTypes.string.isRequired,
+  buttonOk: PropTypes.string.isRequired,
+  buttonCancel: PropTypes.string.isRequired,
+  handleOk: PropTypes.func.isRequired,
+  handleCancel: PropTypes.func.isRequired
+};
+
+PromptConfirm.defaultProps = {
+  titleConfirm: 'Prompt Config?',
+  buttonOk: 'Ok',
+  buttonCancel: 'Cancel',
+  handleOk: () => console.log('No click handler specifcied'),
+  handleCancel: () => console.log('No click handler specifcied')
+};

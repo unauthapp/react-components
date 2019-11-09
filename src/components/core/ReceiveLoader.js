@@ -4,7 +4,7 @@ import Loader from 'react-spinners/BounceLoader';
 import { COLORS } from '../../constants';
 
 
-export default class SearchLoader extends Component {
+export default class ReceiveLoader extends Component {
   render() {
     return (
       <div>
@@ -12,4 +12,4 @@ export default class SearchLoader extends Component {
       </div>
     )
   }
-}
+};

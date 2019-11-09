@@ -1,5 +1,5 @@
 import React from 'react';
-import { FailedIcon, Icon } from '../components/core';
+import { FailedIcon, Icon, SuccessIcon } from '../components/core';
 
 import { ICONS, COLORS } from '../constants';
 
@@ -8,6 +8,8 @@ export default {
 };
 
 export const failedIcon = () => <FailedIcon />
+
+export const successIcon = () => <SuccessIcon />
 
 export const arrowRightIcon = () => (
   <Icon 

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import COLORS from '../../constants/colors';
+import PropTypes from 'prop-types';
+
+import { COLORS, CONSTANTS } from '../../constants';
 
 
 const StyledText = styled.div`
@@ -25,4 +27,13 @@ export default class TextPrimary extends React.Component {
       </ThemeProvider>
     )
   }
-}
+};
+
+TextPrimary.propTypes = {
+  children: PropTypes.string.isRequired
+};
+
+TextPrimary.defaultProps = {
+  children: CONSTANTS.PLACEHOLDER.TEXT_PRIMARY
+};
+
