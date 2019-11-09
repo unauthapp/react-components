@@ -58,7 +58,7 @@ yarn add @unauthapp/react-components
 ## Usage
 
 ```javascript
-const { Text, TextPrimary, ButtonIcon } from '@unauthapp/react-components';
+const { Text, TextPrimary, ButtonIcon } from "@unauthapp/react-components";
 
 export default Home extends React.Components {
   render() {
