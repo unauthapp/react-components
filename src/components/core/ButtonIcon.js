@@ -51,6 +51,6 @@ ButtonIcon.propTypes = {
 
 ButtonIcon.defaultProps = {
   children: CONSTANTS.LABELS.BUTTON,
-  onClick: () => console.log("No click handler specified")
+  onClick: () => console.log('No click handler specified')
 };
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import COLORS from '../../constants/colors';
+import PropTypes from 'prop-types';
+
+import { COLORS, CONSTANTS } from '../../constants';
 
 
 const StyledText = styled.div`
@@ -22,8 +24,16 @@ export default class TextSecondary extends React.Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <StyledText theme={{...this.props}}>{this.props.children}</StyledText>
+        <StyledText theme={{ ...this.props }}>{this.props.children}</StyledText>
       </ThemeProvider>
     )
   }
-}
+};
+
+Text.propTypes = {
+  children: PropTypes.string.isRequired
+};
+
+Text.defaultProps = {
+  children: CONSTANTS.PLACEHOLDER.TEXT
+};

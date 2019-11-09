@@ -58,7 +58,7 @@ Icon.propTypes = {
   className: PropTypes.string.isRequired
 };
 
-Icon.defuaulProps = {
+Icon.defaultProps = {
   name: '',
   style: {},
   color: '#000',

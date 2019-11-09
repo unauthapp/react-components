@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
+import PropTypes from 'prop-types';
 
 
 const StyledImage = styled.img`
@@ -25,4 +26,16 @@ export default class Image extends React.Component {
       </ThemeProvider>
     )
   }
-}
+};
+
+Image.propTypes = {
+  src: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired
+};
+
+Image.defaultProps = {
+  src: '#',
+  href: '#',
+  onClick: () => console.log('No click handler specified')
+};

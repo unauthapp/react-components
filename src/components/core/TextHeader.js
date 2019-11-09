@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import COLORS from '../../constants/colors';
+import PropTypes from 'prop-types';
+
+import { COLORS, CONSTANTS } from '../../constants';
 
 
 const StyledText = styled.div`
@@ -14,4 +16,12 @@ export default class TextHeader extends React.Component {
       <StyledText>{this.props.children}</StyledText>
     )
   }
-}
+};
+
+TextHeader.propTypes = {
+  children: PropTypes.string.isRequired
+};
+
+TextHeader.defaultProps = {
+  children: CONSTANTS.PLACEHOLDER.HEADER
+};
