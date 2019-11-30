@@ -7,11 +7,12 @@ React components used in all unauth apps
 Storybook is deployed at netlify and is accessible at https://unauth-react-components.netlify.com/
 
 ### Buttons
-  - [Button with Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-icon) - Button component with right arrow icon on right side.  
-  - [Button Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-primary) - Primary button using primary color 
-  - [Button External Link](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--external-link) - Button for external Links
-  - [Button Home](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--home-button) - Home icon as button
-  
+
+- [Button with Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-icon) - Button component with right arrow icon on right side.
+- [Button Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-primary) - Primary button using primary color
+- [Button External Link](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--external-link) - Button for external Links
+- [Button Home](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--home-button) - Home icon as button
+
 ### Card
 
 - [Card](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/card--card) - Card container to hold any type of child element
@@ -49,7 +50,16 @@ Storybook is deployed at netlify and is accessible at https://unauth-react-compo
 
 - [Text](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text) - Simple text component
 - [Text Header](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-header) - Text component for heading
-- [Text Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-primary) - Primary text component 
+- [Text Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-primary) - Primary text component
+
+### Prompts
+
+- [Prompt Confirm](https://unauth-react-components.netlify.com/?path=/story/prompt--confirm) - Prompt Confirm component
+
+### Toasts
+
+- [Toast Success](https://unauth-react-components.netlify.com/?path=/story/toast--success) - Success Toast component
+- [Toast Fail](https://unauth-react-components.netlify.com/?path=/story/toast--fail) - Fail Toast component
 
 ## Installation
 
@@ -78,9 +88,10 @@ export default class Home extends React.Components {
 We are constantly working on improving squash and we need all the help we can get.
 You can contribute to this project by giving [suggestions](https://github.com/unauthapp/react-components/issues/new), fixing open [issues](https://github.com/unauthapp/react-components/issues) or by implementing a new feature.
 Read our contibution guide [here](CONTRIBUTING.md)
-  
+
 ## Contributors
 
 Thank you to all the contributors who help in making this project better 🙌
 
 <a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
+<a href="https://github.com/bartuszak"><img src="https://avatars1.githubusercontent.com/u/16143176?s=400&u=5c3f27e89a4854f2ec46ed042691eaee62ccf7e9&v=4" width="30" /></a>
