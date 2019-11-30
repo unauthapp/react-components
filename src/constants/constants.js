@@ -26,5 +26,20 @@ CONSTANTS.FUNCTION = {
   POPUP_HIDE: 'popupHide'
 };
 
+CONSTANTS.STATUS = {
+  SUCCESS: 'SUCCESS',
+  FAIL: 'FAIL'
+};
+
+CONSTANTS.MESSAGES = {
+  TITLE: {
+    CONFIRM: 'Continue?'
+  },
+  BUTTON: {
+    CANCEL: 'Cancel',
+    OK: 'Ok'
+  }
+};
+
 
 export default CONSTANTS;
