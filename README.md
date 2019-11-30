@@ -4,6 +4,8 @@ React components used in all unauth apps
 
 ## Components
 
+Storybook is deployed at netlify and is accessible at https://unauth-react-components.netlify.com/
+
 ### Buttons
   - [Button with Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-icon) - Button component with right arrow icon on right side.  
   - [Button Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-primary) - Primary button using primary color 
