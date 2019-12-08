@@ -2,65 +2,6 @@
 
 React components used in all unauth apps
 
-## Components
-
-Storybook is deployed at netlify and is accessible at https://unauth-react-components.netlify.com/
-
-### Buttons
-
-- [Button with Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-icon) - Button component with right arrow icon on right side.
-- [Button Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-primary) - Primary button using primary color
-- [Button External Link](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--external-link) - Button for external Links
-- [Button Home](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--home-button) - Home icon as button
-
-### Card
-
-- [Card](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/card--card) - Card container to hold any type of child element
-
-### Icons (Svg)
-
-- [Failed Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--failed-icon) - Failed Icon
-- [Success Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--success-icon) - Success Icon
-- [Arrow Right](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--arrow-right-icon) - Arrow Right
-- [Sensor](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--sensor-icon) - Sensor icon
-
-### Image
-
-- [Image](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/image--image) - Simple image component
-
-### Input
-
-- [Input Text](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/inputtext--input-text) - Input text component
-- [Input Text Disabled](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/inputtext--input-text-disabled) - Input text disabled component
-
-### Logo
-
-- [Logo](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/logo--logo) - Simple logo component
-
-### Forms
-
-- [One Field Form](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/onefieldform--field-form) - Form with single input field and button
-
-### Loaders
-
-- [Receive Loader](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/loaders--receive-loader) - Receiving loader component (Gif)
-- [Send Loader](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/loaders--send-loader) - Sending loader component (Gif)
-
-### Texts
-
-- [Text](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text) - Simple text component
-- [Text Header](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-header) - Text component for heading
-- [Text Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-primary) - Primary text component
-
-### Prompts
-
-- [Prompt Confirm](https://unauth-react-components.netlify.com/?path=/story/prompt--confirm) - Prompt Confirm component
-
-### Toasts
-
-- [Toast Success](https://unauth-react-components.netlify.com/?path=/story/toast--success) - Success Toast component
-- [Toast Fail](https://unauth-react-components.netlify.com/?path=/story/toast--fail) - Fail Toast component
-
 ## Installation
 
 ```
@@ -82,6 +23,79 @@ export default class Home extends React.Components {
   }
 }
 ```
+
+## Components
+
+Storybook is deployed at netlify and is accessible at https://unauth-react-components.netlify.com/
+
+## Table of Contents
+
+- [Buttons](#buttons)
+- [Card](#card)
+- [Icons](#icons-svg)
+- [Image](#image)
+- [Input](#input)
+- [Logo](#logo)
+- [Forms](#forms)
+- [Loaders](#loaders)
+- [Texts](#texts)
+- [Prompts](#prompts)
+- [Toasts](#toasts)
+
+#### Buttons
+
+- [Button with Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-icon) - Button component with right arrow icon on right side.
+- [Button Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--button-primary) - Primary button using primary color
+- [Button External Link](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--external-link) - Button for external Links
+- [Button Home](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/button--home-button) - Home icon as button
+
+#### Card
+
+- [Card](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/card--card) - Card container to hold any type of child element
+
+#### Icons (Svg)
+
+- [Failed Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--failed-icon) - Failed Icon
+- [Success Icon](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--success-icon) - Success Icon
+- [Arrow Right](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--arrow-right-icon) - Arrow Right
+- [Sensor](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/icon--sensor-icon) - Sensor icon
+
+#### Image
+
+- [Image](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/image--image) - Simple image component
+
+#### Input
+
+- [Input Text](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/inputtext--input-text) - Input text component
+- [Input Text Disabled](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/inputtext--input-text-disabled) - Input text disabled component
+
+#### Logo
+
+- [Logo](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/logo--logo) - Simple logo component
+
+#### Forms
+
+- [One Field Form](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/onefieldform--field-form) - Form with single input field and button
+
+#### Loaders
+
+- [Receive Loader](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/loaders--receive-loader) - Receiving loader component (Gif)
+- [Send Loader](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/loaders--send-loader) - Sending loader component (Gif)
+
+#### Texts
+
+- [Text](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text) - Simple text component
+- [Text Header](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-header) - Text component for heading
+- [Text Primary](https://5dc6b89d9e960b0008991680--unauth-react-components.netlify.com/?path=/story/text--text-primary) - Primary text component
+
+#### Prompts
+
+- [Prompt Confirm](https://unauth-react-components.netlify.com/?path=/story/prompt--confirm) - Prompt Confirm component
+
+#### Toasts
+
+- [Toast Success](https://unauth-react-components.netlify.com/?path=/story/toast--success) - Success Toast component
+- [Toast Fail](https://unauth-react-components.netlify.com/?path=/story/toast--fail) - Fail Toast component
 
 ## Contributing
 
