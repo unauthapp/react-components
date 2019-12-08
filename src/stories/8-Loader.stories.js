@@ -6,6 +6,6 @@ export default {
   title: 'Loaders'
 };
 
-export const receiveLoader = () => <ReceiveLoader />
+export const receive = () => <ReceiveLoader />
 
-export const sendLoader = () => <SendLoader />
+export const send = () => <SendLoader />

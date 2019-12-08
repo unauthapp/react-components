@@ -8,6 +8,6 @@ export default {
 
 export const text = () => <Text>Text</Text>
 
-export const textHeader = () => <TextHeader>Heading</TextHeader>
+export const header = () => <TextHeader>Heading</TextHeader>
 
-export const textPrimary = () => <TextPrimary>Primary</TextPrimary>
+export const primary = () => <TextPrimary>Primary</TextPrimary>
