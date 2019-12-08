@@ -5,13 +5,13 @@ export default {
   title: 'Button',
 };
 
-export const buttonIcon = () => (
+export const icon = () => (
   <div style={{ width: '280px' }}>
     <ButtonIcon>Button w/Icon</ButtonIcon>
   </div>
 );
 
-export const buttonPrimary = () => (
+export const primary = () => (
   <div style={{ width: '280px' }}>
     <ButtonPrimary>Primary</ButtonPrimary>
   </div>
@@ -23,4 +23,4 @@ export const externalLink = () => (
   </div>
 );
 
-export const homeButton = () => <GoHome />
+export const home = () => <GoHome />

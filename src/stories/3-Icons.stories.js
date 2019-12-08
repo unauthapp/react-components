@@ -7,11 +7,11 @@ export default {
   title: 'Icon',
 };
 
-export const failedIcon = () => <FailedIcon />
+export const failed = () => <FailedIcon />
 
-export const successIcon = () => <SuccessIcon />
+export const success = () => <SuccessIcon />
 
-export const arrowRightIcon = () => (
+export const arrowRight = () => (
   <Icon 
     name={ICONS.NAMES.ARROW_RIGHT} 
     width='200px' height='200px' 
@@ -19,7 +19,7 @@ export const arrowRightIcon = () => (
   />
 );
 
-export const sensorIcon = () => (
+export const sensor = () => (
   <Icon 
     name={ICONS.NAMES.SENSOR} 
     width='200px' height='200px' 
