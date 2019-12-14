@@ -12,16 +12,8 @@ module.exports = {
         test: /\.js$/,
         include: path.resolve(__dirname, 'src'),
         exclude: /(node_modules|bower_components|build)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env']
-          }
-        }
+        use: ['babel-loader']
       }
     ]
-  },
-  externals: {
-    'react': 'commonjs react' 
   }
 };
