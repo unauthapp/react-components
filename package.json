@@ -1,6 +1,6 @@
 {
   "name": "@unauthapp/react-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unauth react components",
   "repository": {
     "type": "git",
@@ -20,6 +20,13 @@
     "extends": "react-app"
   },
   "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-icons": "^3.7.0",
+    "react-spinners": "^0.6.1",
+    "styled-components": "^4.4.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
@@ -38,11 +45,6 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-icons": "^3.7.0",
-    "react-spinners": "^0.6.1",
-    "styled-components": "^4.4.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
